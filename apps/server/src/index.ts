@@ -16,7 +16,7 @@ app.use(logger());
 app.use(
   "/*",
   cors({
-    origin: CORS_ORIGIN,
+    origin: "*", // Opened up for testing so both localhost, 127.0.0.1, and Vercel domains connect seamlessly.
     allowMethods: ["GET", "POST", "OPTIONS"],
   }),
 );
