@@ -1,1 +1,18 @@
 node_modules
+dist
+build
+.next
+.turbo
+coverage
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Storage
+storage/
+
+# Misc
+.DS_Store
+*.log
