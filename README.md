@@ -1,4 +1,4 @@
-# Reliable Recording Chunking Pipeline — Completed Hackathon Submission
+# Reliable Recording Chunking Pipeline
 
 This repository contains a completed implementation for a fully robust, crash-resilient client-server recording pipeline. It ensures recording data stays accurate in all cases — no data loss, no silent failures, and recovers natively from connection drops and tab crashes.
 
