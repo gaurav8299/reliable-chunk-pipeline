@@ -6,7 +6,7 @@ This repository contains a completed implementation for a fully robust, crash-re
 
 ## 🛠 Features Implemented
 
-The full pipeline has been strictly implemented to fulfill the hackathon requirements:
+The full pipeline has been strictly implemented:
 
 1. **Client-Side Chunking:** Microphone audio is recorded using `MediaRecorder` and neatly sliced into 1-second WebM chunks.
 2. **OPFS Local Buffer:** Every chunk is immediately persisted to the **Origin Private File System (OPFS)** before a network request even starts. Tab closed? Network dropped? The data physically survives in the browser storage.
